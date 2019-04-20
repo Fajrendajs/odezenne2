@@ -41,8 +41,9 @@ export default function() {
   return (
     <Bar>
       <Logo>AppBar</Logo>
-      <ControlButton name="NBA" active />
-      <ControlButton name="NFL" />
+      <div />
+      <ControlButton name="nba" active />
+      <ControlButton name="nfl" />
     </Bar>
   );
 }
